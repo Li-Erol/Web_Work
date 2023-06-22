@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #417df408;
+}
+
+
+#myheader {
+    width: 100%;
+    top: 0px;
+    position: relative;
+    height: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#myheader .mylogoweb {
+    display: flex;
+
+}
+
+#myheader .mylogoweb .mylogo {
+    /* width: 30px;height: 30px;
+    background-color: #fff;
+    box-shadow: 7px 5px 5px rgba(0,0,0,.5); */
+    font-size: 40px;
+    margin-right: 10px;
+    color: #120f0fee;
+
+}
+
+#myheader .mylogoweb .myweb_name {
+    margin-top: 8px;
+    font-style: italic;
+    font-size: 18px;
+    color: #f45641
+}
+
+.Tokusatsu_mylist_Picture .Line_Picture {
+    list-style: none;
+}
+
+.Tokusatsu_mylist_Picture .Line_Picture img {
+    width: 100%;
+    /* min-width: 20%;
+    max-width: 100%; */
+    height: 100%;
+    background-color: #415cf4;
+    /* margin: 15px; */
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, .7);
+    object-fit: cover;
+
+}
+
+.Tokusatsu_mylist_Picture .Line_Picture img:hover {
+    animation: Tsecondone_picture 0.3s linear 0s 1;
+}
+
+@keyframes Tsecondone_picture {
+    0% {
+        width: 100%;
+        height: 100%;
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.Tokusatsu_mylist_Picture .Line_Picture a {
+    max-width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.Tokusatsu_mylist_Picture .Line_Picture {
+    display: flex;
+    margin-left: 150px;
+    padding: 15px;
+    height: 300px;
+    border-radius: 15px;
+    /* background-color: rgba(0, 0, 0, 0.763); */
+    /* margin-top: 0px; */
+    margin-bottom: 10px;
+}
+
+.start_P p {
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    color: #0036f97e;
+}
+
+.Tokusatsu_mylist_Picture .two {
+    height: 100%;
+}
+
+.main .m_p {
+    display: block;
+    width: 75%;
+    margin-left: 200px;
+    padding: 15px;
+    
+    border-radius: 15px;
+    /* background-color: rgba(0, 0, 0, 0.763); */
+    /* margin-top: 0px; */
+    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    background-color: #0000001f;
+
+}
+.main .m_p .more{
+    display: flex;
+   
+}
+.main .m_p .more div{
+    width: 50%;
+}
+.main .video{
+    margin-left: 200px;
+    padding: 15px;
+    
+    border-radius: 15px;
+    /* background-color: rgba(0, 0, 0, 0.763); */
+    /* margin-top: 0px; */
+    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    width: 75%;
+    height: 300px;
+    /* background-color: #415cf4; */
+}
+.main .video p{
+    margin-bottom: 15px;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    color: #0036f97e;
+}
+.main .video video{
+    border-radius: 15px;
+    width: 100%;
+}
+.novel_logo_top {
+    /* width: 100px;
+    height: 100px; */
+    background-color: #0000001b;
+    position:fixed;
+    right: 40px;
+    bottom: 25px;
+    width: 50px;height: 50px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+.novel_logo_top .toplogo {
+    text-align: center;
+    font-size: 50px;
+}
